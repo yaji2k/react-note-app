@@ -1,0 +1,17 @@
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.paginationItem {
+    padding: 8px;
+    font-weight: bold;
+    color: teal;
+    cursor: pointer;
+    display: inline-block;
+}
+.paginationItem:hover, .active {
+    color: #d0ffff;
+    background: teal;
+    border-radius: 2px;
+}

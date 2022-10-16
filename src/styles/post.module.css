@@ -1,0 +1,16 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid teal;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 2px;
+}
+.postBody {
+    margin-top: 8px;
+}
+
+.removeBtn {
+    margin-left: 8px;
+}

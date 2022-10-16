@@ -1,9 +1,15 @@
 import React from 'react'
+import classes from './input.module.css'
 
-const Input = ({ value, onInput }) => {
+const MyInput = ({ value, onChange }) => {
   return (
-    <input type="text" value={value} onInput={onInput} />
+    <input
+      type="text"
+      className={ classes.input }
+      value={value}
+      onChange={onChange}
+    />
   )
 }
 
-export default Input
+export default MyInput
