@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { usePosts } from '../hooks/usePosts'
 import { useFetching } from '../hooks/useFetching'
 import PostService from '../api/PostService'
@@ -9,6 +9,7 @@ import Posts from '../components/posts'
 import Pagination from '../components/Pagination/Pagination'
 import Modal from '../components/MyModal/modal'
 import CreatePost from '../components/createPost'
+import { useOutletContext } from 'react-router-dom'
 
 const PostsPage = () => {
   const [posts, setPosts] = useState([])

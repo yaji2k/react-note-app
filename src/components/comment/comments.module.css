@@ -1,0 +1,16 @@
+.comment {
+    padding: 10px;
+    border: 1px dashed teal;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.commentHeader {
+    padding-bottom: 10px;
+    color: #282828;
+}
+.commentFooter {
+    padding-top: 10px;
+    text-align: right;
+    color: #494949;
+}
